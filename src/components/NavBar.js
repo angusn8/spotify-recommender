@@ -38,7 +38,8 @@ function NavBar() {
 
   function handleLogin() {
     const client_id = "d6d93726caa346d8b82119c2362ec1dc";
-    const redirect_uri = "http://localhost:3000/callback";
+    const redirect_uri =
+      "https://spotify-song-recommender-phi.vercel.app/callback";
     const scopes = [
       "user-read-private",
       "user-read-email",
