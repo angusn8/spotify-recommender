@@ -1,0 +1,64 @@
+.rec-form {
+  padding: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  color: #1db854;
+}
+
+.genre {
+  margin-bottom: 25px;
+}
+
+.genre-lbl {
+  font-size: 1.2rem;
+}
+
+.genre-select {
+  margin-left: 20px;
+  border: none;
+  border-bottom: 2px solid #1db854;
+  color: white;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+.genre-select:focus {
+  outline: none;
+}
+
+.submit-btn {
+  border: 2px solid white;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+  background-color: #1db854;
+  padding: 0.7rem;
+  margin-bottom: 25px;
+}
+
+.recommendations-container {
+  padding: 1rem;
+}
+
+.recommendations-heading {
+  margin-bottom: 1rem;
+}
+
+.recommendations-ul {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+.recommendations-ul li {
+  margin-bottom: 0.5rem;
+}
+
+.add-btn {
+  border: 2px solid white;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+  background-color: #1db854;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
