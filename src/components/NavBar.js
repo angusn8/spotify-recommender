@@ -66,7 +66,7 @@ function NavBar() {
   return (
     <>
       <div className="nav-container">
-        <img src={logo} alt="" className="logo" />
+        <h1>HarmonIQ</h1>
         {loggedIn ? (
           <div>
             <button className="nav-btn" onClick={handleLogout}>
